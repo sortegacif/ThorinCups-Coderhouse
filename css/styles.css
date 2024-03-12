@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 a{
     text-decoration:none;
 }
@@ -59,13 +67,11 @@ a{
     color: rgb(134, 134, 134);
    }
    
-   /*Text*/
    .text-title {
     font-size: 1.5em;
     font-weight: bold;
    }
    
-   /*Hover*/
    .card:hover {
     border-color: #008bf8;
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
@@ -74,4 +80,50 @@ a{
    .card:hover .card-button {
     transform: translate(-50%, 50%);
     opacity: 1;
+   }
+
+   .products{
+    margin-left: 150px;
+    margin-right: 150px;
+   }
+
+   .grid-container{
+    display:  grid;
+    grid-template-columns: auto auto auto;
+   }
+
+   .grid-item-texto{
+    margin-left: 100px;
+    justify-content: center;
+    align-content: center;
+   }
+
+   .texto-nosotros{
+    text-shadow: brown 2px 1px 7px;
+    color: black;
+    font-weight: bold;
+   }
+
+   .mision-vision{
+    margin-left: 100px;
+    margin-right: 100px;
+    align-content: center;
+   }
+   
+   .mision-vision h3{
+    font-weight: bold;
+   }
+
+   .mision-vision p{
+    font-size: 15px;
+   }
+
+   .tamanio-icon {
+    width: 100px;
+    height:10;
+   }
+
+   .espaciado-contacto{
+    margin-left: 100px;
+    margin-right: 100px;
    }
